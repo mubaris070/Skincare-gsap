@@ -19,7 +19,6 @@ function Contact() {
         start: "top 50%",
         end: "+=70%",
         scrub: 1,
-        markers: true,
       },
     });
 

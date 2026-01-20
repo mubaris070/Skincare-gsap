@@ -24,7 +24,6 @@ function Blog() {
         start: "top 30%",
         end: "+=80%",
         scrub: 1,
-        markers: true,
       },
     });
 

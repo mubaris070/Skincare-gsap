@@ -27,7 +27,6 @@ export default function Home() {
         scrub: scrub,
         pin: true,
         anticipatePin: 1,
-        markers: false,
       },
     });
 

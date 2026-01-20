@@ -20,7 +20,6 @@ function AboutUs() {
         start: "top 50%",
         end: "+=70%",
         scrub: true,
-        markers: true,
       },
     });
 

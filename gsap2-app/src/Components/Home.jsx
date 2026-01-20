@@ -61,10 +61,10 @@ export default function Home() {
     tl.to(
       hero2Ref.current,
       {
-        scaleX: isMobile ? 0.59 : 0.74,
-        scaleY: isMobile ? 0.55 : 0.67,
+        scaleX: isMobile ? 0.6 : 0.74,
+        scaleY: isMobile ? 0.6 : 0.67,
         x: isMobile ? 0 : -750,
-        y: isMobile ? -70 : -178,
+        y: isMobile ? -287 : -178,
         duration: 1,
         ease: "expo.out",
       },
@@ -75,10 +75,10 @@ export default function Home() {
     tl.to(
       hero3Ref.current,
       {
-        scaleX: isMobile ? 0.59 : 0.74,
-        scaleY: isMobile ? 0.55 : 0.67,
+        scaleX: isMobile ? 0.6 : 0.74,
+        scaleY: isMobile ? 0.6 : 0.67,
         x: isMobile ? 0 : -750,
-        y: isMobile ? 110 : -30,
+        y: isMobile ? -100 : -30,
         duration: 1,
         ease: "expo.out",
       },
@@ -121,21 +121,21 @@ export default function Home() {
           {/* HEADING */}
           <h1
             ref={headRef}
-            className="absolute z-10 text-[20vw] sm:text-[18vw] lg:text-[18vw] top-[250px] leading-none tracking-tighter text-black opacity-90 select-none whitespace-nowrap font-modern-negra"
+            className="absolute z-10 text-[20vw] sm:text-[18vw] lg:text-[18vw] top-[450px] md:top-[250px] leading-none tracking-tighter text-black opacity-90 select-none whitespace-nowrap font-modern-negra"
           >
             NOURISH
           </h1>
 
           {/* HERO IMAGES */}
-          <div ref={hero1Ref} className="absolute z-20 w-full flex justify-center pointer-events-none top-[230px] sm:top-[260px] lg:top-50 left-1/2 -translate-x-1/2">
-            <img src="/images/iceblue.png" alt="Hero Image 1" className="w-[150px] sm:w-[360px] lg:w-[500px] h-auto drop-shadow-2xl" />
+          <div ref={hero1Ref} className="absolute z-20 w-full flex justify-center pointer-events-none top-[430px] sm:top-[260px] lg:top-50 left-1/2 -translate-x-1/2">
+            <img src="/images/iceblue.png" alt="Hero Image 1" className="w-[190px] sm:w-[360px] lg:w-[500px] h-auto drop-shadow-2xl" />
           </div>
 
-          <div id="product" ref={hero2Ref} className="absolute z-20 w-full flex justify-center pointer-events-none scale-100 sm:scale-110 opacity-0 top-[200px] sm:top-[420px] lg:top-[150px] left-1/2 -translate-x-1/2 lg:left-[750px]">
+          <div id="product" ref={hero2Ref} className="absolute z-20 w-full flex justify-center pointer-events-none scale-100 sm:scale-110 opacity-0 top-[410px] sm:top-[420px] lg:top-[150px] left-1/2 -translate-x-1/2 lg:left-[750px]">
             <img src="/images/top.png" alt="Hero Image 2" className="w-[260px] sm:w-[360px] lg:w-[500px] h-[220px] lg:h-[510px] drop-shadow-2xl" />
           </div>
 
-          <div ref={hero3Ref} className="absolute z-10 w-full flex justify-center pointer-events-none scale-100 sm:scale-110 opacity-0 top-[60px] sm:top-[440px] lg:top-[140px] left-1/2 -translate-x-1/2 lg:left-[750px]">
+          <div ref={hero3Ref} className="absolute z-10 w-full flex justify-center pointer-events-none scale-100 sm:scale-110 opacity-0 top-[265px] sm:top-[440px] lg:top-[140px] left-1/2 -translate-x-1/2 lg:left-[750px]">
             <img src="/images/bottom.png" alt="Hero Image 3" className="w-[260px] sm:w-[360px] lg:w-[500px] h-[250px] lg:h-[510px] drop-shadow-2xl" />
           </div>
 

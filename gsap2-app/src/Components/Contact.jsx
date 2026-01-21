@@ -105,8 +105,8 @@ function Contact() {
 
           {/* COMPANY */}
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
-            <ul className="space-y-3 text-sm text-gray-600">
+            <h4 className="font-semibold mb-4 font-lora">Company</h4>
+            <ul className="space-y-3 text-sm text-gray-600 font-lora">
               <li>Home</li>
               <li>Details</li>
               <li>About Us</li>
@@ -116,8 +116,8 @@ function Contact() {
 
           {/* CUSTOMER SERVICE */}
           <div>
-            <h4 className="font-semibold mb-4">Customer Services</h4>
-            <ul className="space-y-3 text-sm text-gray-600">
+            <h4 className="font-semibold mb-4 font-lora">Customer Services</h4>
+            <ul className="space-y-3 text-sm text-gray-600 font-lora">
               <li>My Account</li>
               <li>Track Your Order</li>
               <li>Return</li>
@@ -127,8 +127,8 @@ function Contact() {
 
           {/* INFORMATION */}
           <div>
-            <h4 className="font-semibold mb-4">Our Information</h4>
-            <ul className="space-y-3 text-sm text-gray-600">
+            <h4 className="font-semibold mb-4 font-lora">Our Information</h4>
+            <ul className="space-y-3 text-sm text-gray-600 font-lora">
               <li>Privacy</li>
               <li>User Terms & Condition</li>
               <li>Return Policy</li>
@@ -137,8 +137,8 @@ function Contact() {
 
           {/* CONTACT */}
           <div>
-            <h4 className="font-semibold mb-4">Contact Info</h4>
-            <ul className="space-y-3 text-sm text-gray-600">
+            <h4 className="font-semibold mb-4 font-lora">Contact Info</h4>
+            <ul className="space-y-3 text-sm text-gray-600 font-lora">
               <li>+0123-456-789</li>
               <li>nera@gmail.com</li>
               <li>
@@ -151,12 +151,12 @@ function Contact() {
         {/* BOTTOM BAR */}
         <div className="mt-16 border-t pt-6">
           <div className="max-w-6xl mx-auto px-6 flex flex-col  justify-between items-center gap-4 text-[16px] text-gray-500">
-            <p>
+            <p className="font-lora">
               Copyright © 2025 <span className="text-[#c2a25d] font-serif">NERA</span>{" "}
                All Rights Reserved.
             </p>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 font-lora">
               <span>English</span>
               <span>|</span>
               <span>USD</span>

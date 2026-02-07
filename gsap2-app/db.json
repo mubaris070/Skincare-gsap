@@ -1,0 +1,450 @@
+{
+  "users": [
+    {
+      "username": "Mubaris",
+      "email": "mubarismubaris707@gmail.com",
+      "password": "mubaris@12",
+      "cart": [],
+      "wishlist": [],
+      "orders": [
+        {
+          "orderId":"f4585998-2d29-4c31-a6e5-4ab94f55eb20",
+          "items": [
+            {
+              "productId": "8",
+              "name": "Proso Body Lotion",
+              "image": "/images/p16.png",
+              "description": "Hydrating body lotion that nourishes and softens skin.",
+              "quantity": 1,
+              "variant": "50ml",
+              "price": 799
+            }
+          ],
+          "subtotal": 799,
+          "shippingCost": 20,
+          "discount": 0,
+          "total": 819,
+          "paymentMethod": "cash on delivery",
+          "address": {
+            "name": "Mᴜʙᴀʀɪs",
+            "mobile": "9656020546",
+            "pincode": "679307",
+            "city": "koppam",
+            "state": "Tamil Nadu",
+            "address": "tamil nadu,koppam",
+            "deliveryspot": "Home"
+          },
+          "orderDate": "2026-02-07T05:46:55.160Z"
+        },
+        {
+          "orderId": "23f8929f-9959-4e8f-98c1-9922a8352de3",
+          "items": [
+            {
+              "productId": "2",
+              "name": "Equilb Moisturise",
+              "image": "/images/p2.png",
+              "description": "Daily moisturizer with light, non-greasy texture.",
+              "quantity": 1,
+              "variant": "50ml",
+              "price": 999
+            },
+            {
+              "productId": "7",
+              "name": "Moisturizing Body Lotion",
+              "image": "/images/p10.png",
+              "description": "Lightweight body lotion that keeps skin soft and nourished all day.",
+              "quantity": 1,
+              "variant": "50ml",
+              "price": 899
+            }
+          ],
+          "subtotal": 1898,
+          "shippingCost": 20,
+          "discount": 189.8,
+          "total": 1728.2,
+          "paymentMethod": "cash on delivery",
+          "address": {
+            "name": "Mᴜʙᴀʀɪs",
+            "mobile": "9656020546",
+            "pincode": "679307",
+            "city": "koppam",
+            "state": "Tamil Nadu",
+            "address": "tamil nadu,koppam",
+            "deliveryspot": "Home"
+          },
+          "orderDate": "2026-02-07T05:57:04.932Z"
+        },
+        {
+          "orderId": "a42386be-31ab-44a6-b7c7-ff7a2160ff90",
+          "items": [
+            {
+              "productId": "2",
+              "name": "Equilb Moisturise",
+              "image": "/images/p2.png",
+              "description": "Daily moisturizer with light, non-greasy texture.",
+              "quantity": 1,
+              "variant": "50ml",
+              "price": 999
+            }
+          ],
+          "subtotal": 999,
+          "shippingCost": 20,
+          "discount": 0,
+          "total": 1019,
+          "paymentMethod": "cash on delivery",
+          "address": {
+            "name": "jithin",
+            "mobile": "9656020546",
+            "pincode": "679307",
+            "city": "koppam",
+            "state": "Kerala",
+            "address": "koppam,palakkad",
+            "deliveryspot": "Home"
+          },
+          "orderDate": "2026-02-07T06:06:33.788Z"
+        }
+      ],
+      "buynow": [],
+      "role": "user",
+      "id": 1,
+      "address": [
+        {
+          "name": "jithin",
+          "mobile": "9656020546",
+          "pincode": "679307",
+          "city": "koppam",
+          "state": "Kerala",
+          "address": "koppam,palakkad",
+          "deliveryspot": "Home"
+        },
+        {
+          "name": "Mᴜʙᴀʀɪs",
+          "mobile": "9656020546",
+          "pincode": "679307",
+          "city": "koppam",
+          "state": "Tamil Nadu",
+          "address": "tamil nadu,koppam",
+          "deliveryspot": "Home"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "HydraGlow Face Cream",
+      "image": "/images/paste1.png",
+      "images": [
+        "/images/paste1.png"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "1199",
+          "price": "1099"
+        },
+        {
+          "size": "100ml",
+          "mrp": "1399",
+          "price": "1299"
+        }
+      ],
+      "description": "Deeply hydrating face cream that restores and gives a natural glow.",
+      "shortNote": "HydraGlow Face Cream nourishes deeply.\nRestores your skin’s natural glow.\nLightweight and fast-absorbing.\nPerfect for daily hydration and soft, refreshed skin.",
+      "ingredients": [
+        "Hyaluronic Acid – Deep hydration and plumping",
+        "Shea Butter – Nourishes and softens skin",
+        "Vitamin E – Protects from dryness",
+        "Aloe Vera Extract – Soothes and calms skin",
+        "Glycerin – Locks in moisture"
+      ],
+      "longNote": "This deeply nourishing face cream delivers intense hydration to dry and dull skin.\nIts lightweight formula absorbs quickly, restoring the skin’s natural glow and leaving your face soft, smooth, and refreshed throughout the day.",
+      "isFeatured": true
+    },
+    {
+      "id": "2",
+      "name": "Equilb Moisturise",
+      "image": "/images/p2.png",
+      "images": [
+        "/images/p2.png"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "1199",
+          "price": "999"
+        },
+        {
+          "size": "100ml",
+          "mrp": "1399",
+          "price": "1199"
+        }
+      ],
+      "description": "Daily moisturizer with light, non-greasy texture.",
+      "shortNote": "Daily moisturizer with light, non-greasy texture.\nKeeps your skin soft, hydrated, and protected.\nBalances moisture for a smooth, comfortable feel.",
+      "ingredients": [
+        "Niacinamide – Strengthens skin barrier",
+        "Ceramides – Locks in moisture",
+        "Shea Butter – Deep nourishment",
+        "Vitamin B5 – Improves hydration",
+        "Glycerin – Maintains moisture balance"
+      ],
+      "longNote": "A daily moisturizing formula designed to keep your skin hydrated and protected.\nIt helps maintain moisture balance while providing comfort and softness without feeling heavy or greasy.",
+      "isFeatured": true
+    },
+    {
+      "id": "3",
+      "name": "SPF 50 Sunscreen Lotion",
+      "image": "/images/p6.png",
+      "images": [
+        "/images/p6.png",
+        "https://i.pinimg.com/1200x/25/82/a0/2582a08242db4d7f4b9953555ae34f4e.jpg",
+        "https://i.pinimg.com/736x/3d/bd/f1/3dbdf1180cfc8fb5401cc52b6cef6375.jpg"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "1299",
+          "price": "1199"
+        },
+        {
+          "size": "100ml",
+          "mrp": "1499",
+          "price": "1399"
+        }
+      ],
+      "description": "Broad-spectrum sunscreen that protects skin from harmful UV rays.",
+      "shortNote": "SPF 50 for powerful UVA and UVB protection.\nLightweight, non-sticky formula ideal for daily use.\nKeeps your skin safe, smooth, and comfortable outdoors.",
+      "ingredients": [
+        "Zinc Oxide – Broad-spectrum UV protection",
+        "Titanium Dioxide – Shields against UVA & UVB",
+        "Niacinamide – Strengthens skin barrier",
+        "Green Tea Extract – Antioxidant protection",
+        "Aloe Vera – Soothing hydration"
+      ],
+      "longNote": "This SPF 50 sunscreen lotion offers powerful protection against harmful UVA and UVB rays.\nIts lightweight and non-sticky texture makes it ideal for daily use.",
+      "isFeatured": false
+    },
+    {
+      "id": "4",
+      "name": "Under Eye Repair Cream",
+      "image": "/images/p20.png",
+      "images": [
+        "/images/p20.png"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "1299",
+          "price": "1099"
+        },
+        {
+          "size": "100ml",
+          "mrp": "1499",
+          "price": "1299"
+        }
+      ],
+      "description": "Reduces dark circles, puffiness, and fine lines around the eyes.",
+      "shortNote": "Special cream for delicate under-eye skin.\nReduces dark circles and puffiness.\nSmooths fine lines for a brighter look.",
+      "ingredients": [
+        "Caffeine – Reduces puffiness",
+        "Peptides – Improves elasticity",
+        "Vitamin C – Brightens dark circles",
+        "Hyaluronic Acid – Deep hydration",
+        "Aloe Vera – Soothing care"
+      ],
+      "longNote": "Specially formulated for the delicate under-eye area, this cream helps reduce dark circles and puffiness.",
+      "isFeatured": false
+    },
+    {
+      "id": "5",
+      "name": "Rose Water Facial Mist",
+      "image": "/images/p7.png",
+      "images": [
+        "/images/p7.png"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "799",
+          "price": "599"
+        },
+        {
+          "size": "100ml",
+          "mrp": "999",
+          "price": "799"
+        }
+      ],
+      "description": "Refreshing rose water mist to hydrate and soothe skin instantly.",
+      "shortNote": "Instant hydration with refreshing rose water.\nSoothes and calms tired skin.\nPerfect for on-the-go refreshment.",
+      "ingredients": [
+        "Pure Rose Water – Instant hydration",
+        "Glycerin – Moisture retention",
+        "Chamomile Extract – Calms irritation",
+        "Aloe Vera – Soothes skin",
+        "Vitamin B3 – Skin conditioning"
+      ],
+      "longNote": "A refreshing facial mist infused with rose water to instantly hydrate and calm the skin.",
+      "isFeatured": false
+    },
+    {
+      "id": "6",
+      "name": "Niacinamide Serum",
+      "image": "/images/p9.png",
+      "images": [
+        "/images/p9.png",
+        "https://i.pinimg.com/736x/41/63/5d/41635d00964b5973e42184d1715eadab.jpg",
+        "https://i.pinimg.com/1200x/37/a5/0b/37a50b747a638595a9f280e1b75df539.jpg"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "1599",
+          "price": "1399"
+        },
+        {
+          "size": "100ml",
+          "mrp": "1799",
+          "price": "1599"
+        }
+      ],
+      "description": "Improves skin texture, minimizes pores, and controls oil production.",
+      "shortNote": "Powerful serum for clear, balanced skin.\nRefines pores and improves texture.\nControls oil production.",
+      "ingredients": [
+        "Niacinamide 10% – Controls oil & pores",
+        "Zinc PCA – Balances sebum",
+        "Hyaluronic Acid – Hydration boost",
+        "Panthenol – Repairs skin barrier",
+        "Allantoin – Calms irritation"
+      ],
+      "longNote": "This powerful niacinamide serum works to refine pores and improve overall skin texture.\nIt helps control excess oil while promoting a clearer, smoother, and more balanced complexion.",
+      "isFeatured": false
+    },
+    {
+      "id": "7",
+      "name": "Moisturizing Body Lotion",
+      "image": "/images/p10.png",
+      "images": [
+        "/images/p10.png"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "1099",
+          "price": "899"
+        },
+        {
+          "size": "100ml",
+          "mrp": "1299",
+          "price": "1099"
+        }
+      ],
+      "description": "Lightweight body lotion that keeps skin soft and nourished all day.",
+      "shortNote": "Keeps your skin soft and nourished all day.\nLightweight and fast-absorbing.\nNon-sticky formula.",
+      "ingredients": [
+        "Shea Butter – Deep nourishment",
+        "Cocoa Butter – Improves softness",
+        "Vitamin E – Skin protection",
+        "Glycerin – Moisture lock",
+        "Aloe Vera – Soothing hydration"
+      ],
+      "longNote": "A lightweight yet deeply moisturizing body lotion that keeps your skin nourished all day long.\nIt absorbs easily, leaving your skin soft, smooth, and comfortable without any sticky residue.",
+      "isFeatured": true
+    },
+    {
+      "id": "8",
+      "name": "Proso Body Lotion",
+      "image": "/images/p16.png",
+      "images": [
+        "/images/p16.png",
+        "https://i.pinimg.com/1200x/f4/2f/1a/f42f1a382841958e418f025650150b23.jpg",
+        "https://i.pinimg.com/1200x/0f/21/08/0f21088ec82fb3eda6c48ef888f6514e.jpg"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "999",
+          "price": "799"
+        },
+        {
+          "size": "100ml",
+          "mrp": "1199",
+          "price": "999"
+        }
+      ],
+      "description": "Hydrating body lotion that nourishes and softens skin.",
+      "shortNote": "Hydrating lotion for soft skin.\nRestores moisture.\nRefreshing formula.",
+      "ingredients": [
+        "Shea Butter – Nourishment",
+        "Almond Oil – Softens skin",
+        "Vitamin E – Antioxidant care",
+        "Glycerin – Moisture retention",
+        "Aloe Vera – Skin soothing"
+      ],
+      "longNote": "This hydrating body lotion deeply nourishes dry skin and restores softness.\nIts refreshing formula leaves your skin feeling smooth, revitalized, and pleasantly moisturized.",
+      "isFeatured": true
+    },
+    {
+      "id": "9",
+      "name": "FreshMint Face Mist",
+      "image": "/images/p3.png",
+      "images": [
+        "/images/p3.png"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "499",
+          "price": "349"
+        },
+        {
+          "size": "100ml",
+          "mrp": "699",
+          "price": "549"
+        }
+      ],
+      "description": "Refreshing facial mist to cool and hydrate your skin.",
+      "shortNote": "Cooling mint-infused mist.\nInstant hydration.\nRevives tired skin.",
+      "ingredients": [
+        "Mint Extract – Cooling effect",
+        "Aloe Vera – Hydration",
+        "Rose Water – Refreshing care",
+        "Vitamin B5 – Moisture support",
+        "Glycerin – Hydration lock"
+      ],
+      "longNote": "A cooling face mist infused with fresh mint to instantly refresh your skin.\nIt provides light hydration while revitalizing your complexion.",
+      "isFeatured": true
+    },
+    {
+      "id": "10",
+      "name": "Naturlist Facewash",
+      "image": "/images/p8.png",
+      "images": [
+        "/images/p8.png"
+      ],
+      "variants": [
+        {
+          "size": "50ml",
+          "mrp": "549",
+          "price": "399"
+        },
+        {
+          "size": "100ml",
+          "mrp": "749",
+          "price": "599"
+        }
+      ],
+      "description": "A gentle daily face wash that cleanses deeply while keeping skin hydrated.",
+      "shortNote": "Gentle cleansing for daily use.\nRemoves impurities.\nKeeps skin hydrated.",
+      "ingredients": [
+        "Salicylic Acid – Deep cleansing",
+        "Tea Tree Extract – Acne control",
+        "Aloe Vera – Prevents dryness",
+        "Vitamin B5 – Moisture balance",
+        "Glycerin – Gentle hydration"
+      ],
+      "longNote": "This gentle face wash effectively removes dirt, oil, and impurities without stripping moisture.\nDesigned for daily use, it keeps your skin clean and fresh.",
+      "isFeatured": false
+    }
+  ]
+}

@@ -21,7 +21,7 @@ function Blog() {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: blogRef.current,
-        start: "top 30%",
+        start: "top top",
         end: "+=80%",
         scrub: 1,
       },
@@ -38,7 +38,6 @@ function Blog() {
 
      
     tl.add("swap")
-    // Bottom image enters first
     .fromTo(
       hero3Ref.current,
       { opacity: 0, scale:isMobile?0.7: 1, y: -190 },
@@ -46,7 +45,6 @@ function Blog() {
       "swap"
     )
 
-      // Then top image comes above it
       .fromTo(
         hero2Ref.current,
         { opacity: 0, scale:isMobile?0.7: 1, y: -230 },
@@ -61,7 +59,7 @@ function Blog() {
     detRef.current.children,
     {
       opacity: 0,
-      x: -120,   // ← from left
+      x: -120,   
     },
     {
       opacity: 1,
@@ -76,16 +74,14 @@ function Blog() {
   }, []);
 
   return (
-    <Element name="details">
     <>
     <section
       ref={blogRef}
-      className=" min-h-[100vh] w-full relative"
+      className=" min-h-[100vh] w-full relative pb-8 md:pb-8"
     >
 
-      {/* ================= ROW 1 : FULL WIDTH ================= */}
  <div className="max-w-6xl mx-auto px-6 pt-24 pb-16 text-center md:text-left">
-        <h1 className="font-lora text-[20px] tracking-[0.35em] text-gray-500 uppercase">
+        <h1 className="font-lora text-[23px] tracking-[0.35em] text-gray-500 uppercase">
           PRODUCT DETAILS
         </h1>
 
@@ -104,12 +100,10 @@ function Blog() {
         </div>
       </div>
 
-      {/* ================= ROW 2 : DETAILS + IMAGE ================= */}
       <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col-reverse md:flex-row  gap-16 md:gap-24">
 
     <div ref={detRef} className="flex-1 flex flex-col gap-10 md:gap-16">
 
-  {/* Item 1 */}
   <div className="flex items-center gap-4 md:gap-6 text-center md:text-left">
     <div className="w-16 h-16 md:w-24 md:h-24 rounded-full border shadow-sm overflow-hidden flex-shrink-0">
       <img
@@ -127,7 +121,6 @@ function Blog() {
     </div>
   </div>
 
-  {/* Item 2 */}
   <div className="flex flex-row-reverse items-center gap-4 md:gap-6 text-right">
     <div className="w-16 h-16 md:w-24 md:h-24 rounded-full border shadow-sm overflow-hidden flex-shrink-0">
       <img
@@ -145,7 +138,6 @@ function Blog() {
     </div>
   </div>
 
-  {/* Item 3 */}
   <div className="flex items-center gap-4 md:gap-6">
     <div className="w-16 h-16 md:w-24 md:h-24 rounded-full border shadow-sm overflow-hidden flex-shrink-0">
       <img
@@ -163,7 +155,6 @@ function Blog() {
     </div>
   </div>
 
-  {/* Item 4 */}
   <div className="flex flex-row-reverse items-center gap-4 md:gap-6 text-right">
     <div className="w-16 h-16 md:w-24 md:h-24 rounded-full border shadow-sm flex items-center justify-center">
       <span className="text-4xl md:text-6xl text-green-500">🌿</span>
@@ -181,7 +172,6 @@ function Blog() {
 </div>
 
 
-        {/* RIGHT : IMAGE */}
         <div
           ref={imgRef}
           className="flex-1 flex items-center justify-center"
@@ -211,7 +201,6 @@ function Blog() {
       </div>
     </section>
     </>
-    </Element>
   )
 }
 
